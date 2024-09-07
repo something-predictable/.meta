@@ -1,0 +1,27 @@
+{
+  "node": {
+    "env": "node-env.git",
+    "fetch": "node-fetch.git",
+    "create": "node-create.git",
+    "init": "node-init.git",
+    "services": {
+      "host": "node-host.git",
+      "service": "node-service.git",
+      "deploy": "node-deploy.git",
+      "hosts": {
+        "aws": "node-aws-host.git"
+      }
+    }
+  },
+  "flutter": {
+    "cmd": "flutter-cmd.git",
+    "env": {
+      ".git": {
+        "remotes": {
+          "url": "flutter-env.git"
+        },
+        "branches": ["main", "flutter-create", "flutter-create-clean"]
+      }
+    }
+  }
+}
